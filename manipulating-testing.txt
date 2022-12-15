@@ -50,3 +50,42 @@ q
 
 D:\1st Semester\CPR 101\Final Project\CPR Final Project\x64\Debug\CPR Final Project.exe (process 6876) exited with code 0.
 Press any key to close this window . . .
+
+---------------------------------------------------------VERSION-3---------------------------------------------------------
+
+*** Start of Searching strings Demo ***
+Type a string (q - to quit):
+ompatel
+Type the substring:
+om
+'om' found at 0 position
+Type a string (q - to quit):
+programming
+Type the substring:
+code
+Not found
+Type a string (q - to quit):
+
+Type the substring:
+
+'' found at 0 position
+Type a string (q - to quit):
+
+Type the substring:
+nothing
+Not found
+
+Type a string (q - to quit):
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+Type the substring:
+wxyz
+'wxyz' found at 22 position
+
+Type a string (q - to quit):
+q
+*** End of Search strings Demo ***
+
+D:\1st Semester\CPR 101\Final Project\CPR Final Project\x64\Debug\CPR Final Project.exe (process 6876) exited with code 0.
+Press any key to close this window . . .
+
+--------------------------------------------------------------------------------------------------------------------------

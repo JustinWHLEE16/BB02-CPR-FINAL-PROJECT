@@ -1,0 +1,72 @@
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+1234567890223456789033345678904444567890555556789066666678907777777890888888889099999999900000000000000
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+12345678901
+Converted number is 2147483647
+
+Type an int numeric string (q - to quit):
+29.354
+Converted number is 29
+Type an int numeric string (q - to quit):
+-1.58
+Converted number is -1
+Type an int numeric string (q - to quit):
+-2368.54690
+Converted number is -2368
+
+Type an int numeric string (q - to quit):
+5$
+Converted number is 5
+Type an int numeric string (q - to quit):
+7/9
+Converted number is 7
+Type an int numeric string (q - to quit):
+8 2
+Converted number is 8
+Type an int numeric string (q - to quit):
+$3
+Converted number is 0
+
+
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+12345678901.123456789
+Converted number is 12345678901.123457
+Type the double numeric string (q - to quit):
+3/5
+Converted number is 3.000000
+Type the double numeric string (q - to quit):
+4/9
+Converted number is 4.000000
+Type the double numeric string (q - to quit):
+$3
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+.23
+Converted number is 0.230000
+Type the double numeric string (q - to quit):
+.44
+Converted number is 0.440000
+Type the double numeric string (q - to quit):
+.96
+Converted number is 0.960000
+Type the double numeric string (q - to quit):
+
+
+
+*** Start of Converting Strings to long Demo ***
+Type the long numeric string (q - to quit):
+12345678901
+Converted number is 2147483647
+Type the long numeric string (q - to quit):
+3/5
+Converted number is 3
+Type the long numeric string (q - to quit):
+$9
+Converted number is 0
+Type the long numeric string (q - to quit):
+.54
+Converted number is 0
+Type the long numeric string (q - to quit):

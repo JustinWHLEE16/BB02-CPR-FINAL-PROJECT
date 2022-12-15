@@ -1,42 +1,65 @@
-*** Start of Tokenizing Phrases Demo ***
-Type a few phrases separated by comma (q to quit):
-This is demo,you may check it out
-Phrase #1 is 'This is demo'
-Phrase #2 is 'you may check it out'
-Type a few phrases separated by comma (q to quit):
-a
-Phrase #1 is 'a'
-Type a few phrases separated by comma (q to quit):
-I STUDY AT SENECA COLLEGE, NEWNHAM CAMPUS, MY COURSE IS COMPUTER PROGRAMMING(CPP), I LOVE MY COLLEGE, MY FIRST SEMESTER IS GOING TO END SOON, I HAD A LOT OF FUN DURING THE FIRST SEMESTER, I LEARNED A LOT OF NEW THINGS AND HAD GREAT EXPERIENCE, SENECA HAS 4 CAMPUSES NEWNHAM, YORK, MARKHAM, AND KING,
-Phrase #1 is 'I STUDY AT SENECA COLLEGE'
-Phrase #2 is ' NEWNHAM CAMPUS'
-Phrase #3 is ' MY COURSE IS COMPUTER PROGRAMMING(CPP)'
-Phrase #4 is ' I LOVE MY COLLEGE'
-Phrase #5 is ' MY FIRST SEMESTER IS GOING TO END SOON'
-Phrase #6 is ' I HAD A LOT OF FUN DURING THE FIRST SEMESTER'
-Phrase #7 is ' I LEARNED A LOT OF NEW THINGS AND HAD GREAT EXPERIENCE'
-Phrase #8 is ' SENECA HAS 4 CAMPUSES NEWNHAM'
-Phrase #9 is ' YORK'
-Phrase #10 is ' MARKHAM'
-Phrase #11 is ' AND KING'
-Type a few phrases separated by comma (q to quit):
-I STUDY AT SENECA COLLEGE, NEWNHAM CAMPUS, MY COURSE IS COMPUTER PROGRAMMING(CPP), I LOVE MY COLLEGE, MY FIRST SEMESTER IS GOING TO END SOON, I HAD A LOT OF FUN DURING THE FIRST SEMESTER, I LEARNED A LOT OF NEW THINGS AND HAD GREAT EXPERIENCE, SENECA HAS 4 CAMPUSES NEWNHAM, YORK, MARKHAM, AND KING, This was a tough one though
-Phrase #1 is 'I STUDY AT SENECA COLLEGE'
-Phrase #2 is ' NEWNHAM CAMPUS'
-Phrase #3 is ' MY COURSE IS COMPUTER PROGRAMMING(CPP)'
-Phrase #4 is ' I LOVE MY COLLEGE'
-Phrase #5 is ' MY FIRST SEMESTER IS GOING TO END SOON'
-Phrase #6 is ' I HAD A LOT OF FUN DURING THE FIRST SEMESTER'
-Phrase #7 is ' I LEARNED A LOT OF NEW THINGS AND HAD GREAT EXPERIENCE'
-Phrase #8 is ' SENECA HAS 4 CAMPUSES NEWNHAM'
-Phrase #9 is ' YORK'
-Phrase #10 is ' MARKHAM'
-Phrase #11 is ' AND KING'
-Type a few phrases separated by comma (q to quit):
-Phrase #1 is ' This was a tough one though'
-Type a few phrases separated by comma (q to quit):
-Q
-Phrase #1 is 'Q'
-Type a few phrases separated by comma (q to quit):
-q
-*** End of Tokenizing Phrases Demo **** **
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot (q  - to quit):
+saksham.
+Senetnce #1 is 'saksham'
+Type a few sentences separated by dot (q  - to quit):
+i.am.saksham
+Senetnce #1 is 'i'
+Senetnce #2 is 'am'
+Senetnce #3 is 'saksham'
+Type a few sentences separated by dot (q  - to quit):
+I.STUDY.AT.SENECA.COLLEGE..NEWNHAM.CAMPUS..MY.COURSE.IS.COMPUTER.PROGRAMMING(CPP)..I.LOVE.MY.COLLEGE..MY.FIRST.SEMESTER.IS.GOING.TO.END.SOON..I.HAD.A.LOT.OF.FUN.DURING.THE.FIRST.SEMESTER..I.LEARNED.A.LOT.OF.NEW.THINGS.AND.HAD.GREAT.EXPERIENCE..SENECA.HAS.4.CAMPUSES.NEWNHAM..YORK..MARKHAM..AND.KING
+Senetnce #1 is 'I'
+Senetnce #2 is 'STUDY'
+Senetnce #3 is 'AT'
+Senetnce #4 is 'SENECA'
+Senetnce #5 is 'COLLEGE'
+Senetnce #6 is 'NEWNHAM'
+Senetnce #7 is 'CAMPUS'
+Senetnce #8 is 'MY'
+Senetnce #9 is 'COURSE'
+Senetnce #10 is 'IS'
+Senetnce #11 is 'COMPUTER'
+Senetnce #12 is 'PROGRAMMING(CPP)'
+Senetnce #13 is 'I'
+Senetnce #14 is 'LOVE'
+Senetnce #15 is 'MY'
+Senetnce #16 is 'COLLEGE'
+Senetnce #17 is 'MY'
+Senetnce #18 is 'FIRST'
+Senetnce #19 is 'SEMESTER'
+Senetnce #20 is 'IS'
+Senetnce #21 is 'GOING'
+Senetnce #22 is 'TO'
+Senetnce #23 is 'END'
+Senetnce #24 is 'SOON'
+Senetnce #25 is 'I'
+Senetnce #26 is 'HAD'
+Senetnce #27 is 'A'
+Senetnce #28 is 'LOT'
+Senetnce #29 is 'OF'
+Senetnce #30 is 'FUN'
+Senetnce #31 is 'DURING'
+Senetnce #32 is 'THE'
+Senetnce #33 is 'FIRST'
+Senetnce #34 is 'SEMESTER'
+Senetnce #35 is 'I'
+Senetnce #36 is 'LEARNED'
+Senetnce #37 is 'A'
+Senetnce #38 is 'LOT'
+Senetnce #39 is 'OF'
+Senetnce #40 is 'NEW'
+Senetnce #41 is 'THINGS'
+Senetnce #42 is 'AND'
+Senetnce #43 is 'HAD'
+Senetnce #44 is 'GREAT'
+Senetnce #45 is 'EXPERIENCE'
+Senetnce #46 is 'SENECA'
+Senetnce #47 is 'HAS'
+Senetnce #48 is '4'
+Senetnce #49 is 'CAMPUSES'
+Senetnce #50 is 'NEWNHAM'
+Senetnce #51 is 'YORK'
+Senetnce #52 is 'MARKHAM'
+Senetnce #53 is 'AND'
+Senetnce #54 is 'KING'

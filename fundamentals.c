@@ -11,6 +11,7 @@ Purpose : This program solves three problems in 3 different versions-
 	VERSION 1 : This version will get the string from the user as an input and returns the character from the string by
 				prompting to enter character's position or index.
 	VERSION 2 : This version will get the string of characters as an input and will return number of characters in that string. 
+	VERSION 3 : This version will get string of characters as an input and will copy input string to new variable before				  displaying it using new variable.
 */
 
 #define _CRT_SECURE_NO_WARNINGS	  // to avoid warning relatd to library functions.
@@ -130,5 +131,54 @@ int fundamentals(void) {
 	} while (strcmp(buffer2, "q") != 0);		// // do-while loop will continue to iterate untill measure string = 'q'.
 	printf("*** End of Measuring Strings Demo ***\n\n");
 	
+ //*
+ //*
+ //*********************************** VERSION 3 *********************************
+ //*
+ //*
+
+	/*
+	This version will get string of characters as an input and will copy input string to new variable before displaying it using new variable. 
+	*/
+	
+	printf("*** start of Copying Strings Demo ***\n");
+	
+	/*
+	define 2 arrays to store string of characters with limit upto BUFFER_SIZE
+	*/
+	char destination[BUFFER_SIZE];		 
+	char source[BUFFER_SIZE];			
+	
+	/*
+	do-while loop-
+	Input     : get and store string of characters.
+	Action    : copy input string to new variable.
+	Output    : display input string of characters using new variable.
+	Condition : iterate untill entered string = 'q'.
+	*/
+	do {
+		destination[0] = '\0';		// set new variable to NULL (empty state)
+		printf("Destination string is reset to empty\n");
+		printf("Type the source string (q - to quit):\n");
+		fgets(source, BUFFER_SIZE, stdin);		// get and store string of characters upto BUFFER_SIZE limit
+		source[strlen(source) - 1] = '\0';		// set last position of input variable to NULL
+		
+		/*
+		upto here, string is stored in a variable. New variable and last position of input variable is set to NULL.
+		Next, If struct-
+		Input     : -
+		Action    : copying string from input variable to new variable
+		Output    : Displayed copied input string using new variable.
+		Condition : DO NOT perform action if string = 'q'
+		*/
+		if (strcmp(source, "q") != 0) {
+		strcpy(destination, source);		// copying string from input variable to new variable
+		printf("New destination string is \'%s\'\n", destination);
+		
+		}		// checks if string not equal to 'q', copy string. 
+
+	} while (strcmp(source, "q") != 0);		//continue to iterate untill input string = 'q' 
+	printf("*** End of Copying Strings Demo ***\n\n");
+
 	return 0;
 }

@@ -54,7 +54,7 @@ int main(void)
    // 
    // 
    //V2 begins
-*/
+
 
 	// [input - process - output ]
 	// input will be string that user is promted to enter
@@ -93,7 +93,45 @@ int main(void)
 		// 
 		// 
 		// 
-		
+		*/		
+		// V3 begins
+				// [input - process - output ]
+	// input will be string that user is promted to enter
+	// process will be tokenizing it i.e. treating each sentence as an independent sentence which if precceded and proceded by "."
+	// output will be the final printing of tokens one by one.
+
+
+	printf("*** Start of Tokenizing Sentences Demo ***\n");
+	char sentences[BUFFER_SIZE];
+	char* nextSentence = NULL;
+	int sentencesCounter; // number of tokenized sentences inside user string
+
+
+
+	do                	// loop  begins:--user enters string to be broken into individual tokens according to a "." separator. User inputs "q" to quit the input/process/output cycle 
+	{
+
+
+		printf("Type a few sentences separated by dot (q  - to quit):\n");      //Input
+		fgets(sentences, BUFFER_SIZE, stdin);                                   //expected input:--user enters a series of strings  or sentence seperated by "." and it's length  is bound to be less than BUFFER_SIZE -1
+		sentences[strlen(sentences) - 1] = '\0';
+		//Process
+		if ((strcmp(sentences, "q") != 0))                                     // Line of code to check exiting condition i.e if user enters q this block of code will be overlooked
+		{
+			nextSentence = strtok(sentences, ".");                              // Code to tokenize using strinng tokenizing.
+			sentencesCounter = 1;                                               // This is counter set to keep the count of total sentences entered
+			//Output
+			while (nextSentence)                                                // a looping condition is  initiated that  will be responsible for output i.e. printing individual phrases or words with their numbers
+			{
+
+				printf("Senetnce #%d is \'%s\'\n", sentencesCounter++, nextSentence);
+				nextSentence = strtok(NULL, ".");                 // acts as an exiting condition as the string entered has ended and the last character is a null character 
+			}
+
+		}
+	} while (strcmp(sentences, "q") != 0);                               //this is condition which governs exit to the program as soon as user enters q the operations and stopped and program ends.
+	printf("*** End of Tokenizing Sentences Demo ***\ **\n\n");
+
 
 		
 }

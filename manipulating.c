@@ -95,5 +95,49 @@ void manipulating(void) {
 
 	/* Version 3 */
 
-		return 0;
+	printf("*** Start of Searching strings Demo ***\n");			  // output after entering q
+	
+	// Declaring two string variables
+	char haystack[BUFFER_SIZE];
+	char needle[BUFFER_SIZE];
+	// Declaring a string pointer variable
+	char* occurrence = NULL;
+
+	/*
+	input loop:
+	take two string inputs from
+	the user until he enters 'q' to quit the input cycle.
+	*/
+	do {
+		printf("Type a string (q - to quit):\n");                         // input for first string
+		fgets(haystack, BUFFER_SIZE, stdin);							  // stores the user input to haystack
+		haystack[strlen(haystack) - 1] = '\0';							  // sets null terminator
+		
+		/*
+		If condition to check for the matching condition and display the output accordingly
+		*/
+		if (strcmp(haystack, "q") != 0)
+		{
+			printf("Type the substring:\n");                              // input for substring
+			fgets(needle, BUFFER_SIZE, stdin);							  // stores the user input to needle
+			needle[strlen(needle) - 1] = '\0';							  // sets null terminator
+			occurrence = strstr(haystack, needle);                        // searches for second string in first string using strstr
+
+			/*
+			If condition to check the value of occurrence to see if the second string is a substring of first string
+			*/
+
+			if (occurrence)
+			{
+				printf("\'%s\' found at %d position\n", needle, (int)(occurrence-haystack));    // output if 2nd string is a substring of first string
+			}
+			else
+			{
+				printf("Not found\n");															// output if 2nd string is not a substring of first string
+			}
+		}
+	} while (strcmp(haystack, "q") != 0);								   // iterating until user enter 'q' to quit input cycle
+
+	printf("\n*** End of Search strings Demo ***\n\n");                    // output after entering q
+	return 0;
 }
