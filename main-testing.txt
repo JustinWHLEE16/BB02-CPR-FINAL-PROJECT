@@ -1,0 +1,108 @@
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+abcdefgh
+Type the character position within the string:
+3
+The character found at 3 position is 'd'
+Type not empty string (q - to quit):
+1234567890123456789012345678901234567890123456789012345678901234567890123456789
+Type the character position within the string:
+The character found at 0 position is '1'
+
+
+*** Start of Concatenating String Demo ***
+Type the 1st string (q - to quit):
+Om
+Type the 2nd string:
+Lavish
+Concatenated string is 'OmLavish'
+Type the 1st string (q - to quit):
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+Type the 2nd string:
+alphabet
+Concatenated string is 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzalphabet'
+Type the 1st string (q - to quit):
+
+Type the 2nd string:
+
+Concatenated string is ''
+Type the 1st string (q - to quit):
+
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+
+Converted number is 0
+Type an int numeric string (q - to quit):
+25.50
+Converted number is 25
+Type an int numeric string (q - to quit):
+1234567890
+Converted number is 1234567890
+Type an int numeric string (q - to quit):
+
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit):
+
+Type a few words separated by space (q - to quit):
+MY NAME IS SHAKSHAM
+Word #1 is 'MY'
+Word #2 is 'NAME'
+Word #3 is 'IS'
+Word #4 is 'SHAKSHAM'
+Type a few words separated by space (q - to quit):
+I STUDY AT SENECA COLLEGE, NEWNHAM CAMPUS. MY COURSE IS COMPUTER PROGRAMMING(CPP). I LOVE MY COLLEGE. MY FIRST SEMESTER IS GOING TO END SOON. I HAD A LOT OF FUN DURING THE FIRST SEMESTER. I LEARNED A LOT OF NEW THINGS AND HAD GREAT EXPERIENCE. SENECA HAS 4 CAMPUSES NEWNHAM, YORK, MARKHAM, AND KING.
+Word #1 is 'I'
+Word #2 is 'STUDY'
+Word #3 is 'AT'
+Word #4 is 'SENECA'
+Word #5 is 'COLLEGE,'
+Word #6 is 'NEWNHAM'
+Word #7 is 'CAMPUS.'
+Word #8 is 'MY'
+Word #9 is 'COURSE'
+Word #10 is 'IS'
+Word #11 is 'COMPUTER'
+Word #12 is 'PROGRAMMING(CPP).'
+Word #13 is 'I'
+Word #14 is 'LOVE'
+Word #15 is 'MY'
+Word #16 is 'COLLEGE.'
+Word #17 is 'MY'
+Word #18 is 'FIRST'
+Word #19 is 'SEMESTER'
+Word #20 is 'IS'
+Word #21 is 'GOING'
+Word #22 is 'TO'
+Word #23 is 'END'
+Word #24 is 'SOON.'
+Word #25 is 'I'
+Word #26 is 'HAD'
+Word #27 is 'A'
+Word #28 is 'LOT'
+Word #29 is 'OF'
+Word #30 is 'FUN'
+Word #31 is 'DURING'
+Word #32 is 'THE'
+Word #33 is 'FIRST'
+Word #34 is 'SEMESTER.'
+Word #35 is 'I'
+Word #36 is 'LEARNED'
+Word #37 is 'A'
+Word #38 is 'LOT'
+Word #39 is 'OF'
+Word #40 is 'NEW'
+Word #41 is 'THINGS'
+Word #42 is 'AND'
+Word #43 is 'HAD'
+Word #44 is 'GREAT'
+Word #45 is 'EXPERIENCE.'
+Word #46 is 'SENECA'
+Word #47 is 'HAS'
+Word #48 is '4'
+Word #49 is 'CAMPUSES'
+Word #50 is 'NEWNHAM,'
+Word #51 is 'YORK,'
+Word #52 is 'MARKHAM,'
+Word #53 is 'AND'
+Word #54 is 'KING'
+Type a few words separated by space (q - to quit):

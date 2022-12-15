@@ -1,0 +1,39 @@
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+abcdefgh
+Type the character position within the string:
+3
+The character found at 3 position is 'd'
+Type not empty string (q - to quit):
+1234567890123456789012345678901234567890123456789012345678901234567890123456789
+Type the character position within the string:
+The character found at 0 position is '1'
+Type not empty string (q - to quit):
+$
+Type the character position within the string:
+0
+The character found at 0 position is '$'
+Type not empty string (q - to quit):
+mnopqrst
+Type the character position within the string:
+9
+Too big... Position reduced to max. available
+The character found at 7 position is 't'
+Type not empty string (q - to quit):
+
+Type the character position within the string:
+1
+Too big... Position reduced to max. available
+The character found at -1 position is '╠'
+Type not empty string (q - to quit):
+987654321
+Type the character position within the string:
+a
+The character found at 0 position is '9'
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+
+C:\Users\shikh\Desktop\anirudh\CPR101_NAA\Project work\fundamental\x64\Debug\fundamental.exe (process 20732) exited with code 0.
+Press any key to close this window . . .

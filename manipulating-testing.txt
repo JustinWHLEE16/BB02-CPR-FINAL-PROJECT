@@ -1,0 +1,23 @@
+*** Start of Concatenating String Demo ***
+Type the 1st string (q - to quit):
+Om
+Type the 2nd string:
+Lavish
+Concatenated string is 'OmLavish'
+Type the 1st string (q - to quit):
+
+Type the 2nd string:
+CPA
+Concatenated string is 'AdityaTaranjeet'
+Type the 1st string (q - to quit):
+ 
+Type the 2nd string:
+empty
+Concatenated string is 'CodeSucceded'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenating strings Demo ***
+
+
+D:\1st Semester\CPR 101\Final Project\CPR Final Project\x64\Debug\CPR Final Project.exe (process 12380) exited with code 0.
+Press any key to close this window . . .
