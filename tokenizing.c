@@ -11,8 +11,9 @@
 	// process will be tokenizing it i.e. treating each word as an independent word which if precceded and proceded by space
 	// output will be the final printing of tokens one by one.
 // V1
-void tokenizing()
+int main(void)
 {
+	/*
 	printf("*** Start of Tokenizing Words Demo ***\n");
 	
 	char words[BUFFER_SIZE];  // user input of entire entire string
@@ -41,10 +42,58 @@ void tokenizing()
 						nextWord = strtok(NULL, " ");                    // acts as an exiting condition as the string entered has ended and the last character is a null character
 					}
 				}
-	    } while (strcmp(words, "q") != 0);                           //this is condition which governs entry and exit to the program as soon as user enters q the operations and stopped and program ends.
+	    } while (strcmp(words, "q") != 0);                           //this is condition which governs exit to the program as soon as user enters q the operations and stopped and program ends.
 				printf("*** End of Tokenizing Words Demo ***\n\n");      //FEEL GOOD STATEMENT it ensures user that he has succesfully exited the program.
 
-}
+
 
 	
 //if user enters unexpected input of a single long string that will also work as the code will treat it as a/ single token
+   //V1 ends
+   // 
+   // 
+   // 
+   //V2 begins
+*/
+
+	// [input - process - output ]
+	// input will be string that user is promted to enter
+	// process will be tokenizing it i.e. treating each phrase as an independent phrase which if precceded and proceded by ","
+	// output will be the final printing of tokens one by one.
+
+    printf("*** Start of Tokenizing Phrases Demo ***\n");
+    char phrases[BUFFER_SIZE];
+    char* nextPhrase = NULL;
+	int  phrasesCounter;  // number of tokenized words inside user string
+	// loop  begins:--user enters string to be broken into individual tokens according to a "," separator. User inputs "q" to quit the input/process/output cycle 
+	
+	do
+	{
+		   printf("Type a few phrases separated by comma (q to quit):\n"); 
+		   //INPUT
+	       //expected input:--user enters a series of strings  or phrases seperated by "," and it is bound to be less than BUFFER_SIZE -1
+		   fgets(phrases, BUFFER_SIZE, stdin);
+		   phrases[strlen(phrases) - 1] = '\0';
+		                                               //Process
+	   if ((strcmp(phrases, "q") != 0))               // Line of code to check exiting condition i.e if user enters q this block of code will be overlooked
+	   {
+		   nextPhrase = strtok(phrases, ",");         // Code to tokenize using strinng tokenizing.
+		   phrasesCounter = 1;                        // This is counter set to keep the count of total phrases entered
+		                                              //Output
+		   while (nextPhrase)                        // a looping condition is  initiated that  will be responsible for output i.e. printing individual phrases or words with their numbers 
+		   {
+			   printf("Phrase #%d is \'%s\'\n", phrasesCounter++, nextPhrase);
+			   nextPhrase    = strtok(NULL, ",");     // acts as an exiting condition as the string entered has ended and the last character is a null character 
+		   }
+	   }
+    } while (strcmp(phrases, "q") != 0);          //this is condition which governs exit to the program as soon as user enters q the operations and stopped and program ends.
+        printf("*** End of Tokenizing Phrases Demo **** **\n\n");
+		
+		// V2 ends 
+		// 
+		// 
+		// 
+		
+
+		
+}

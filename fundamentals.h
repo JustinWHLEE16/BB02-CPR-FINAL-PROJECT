@@ -8,5 +8,5 @@
 #include <string.h>
 
 // ***** FUNCTION PROTOTYPE *****
-int fundamentals(void); // Function Prototype for fundamentals function
+int fundamentals(void);
 #endif

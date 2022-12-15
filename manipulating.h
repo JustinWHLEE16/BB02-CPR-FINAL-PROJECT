@@ -3,5 +3,5 @@
 #define _MANIPULATING_H_
 #include <stdio.h>
 #include <string.h>
-void manipulating(); // Function Prototype for manipulating function
+void manipulating(void);
 #endif

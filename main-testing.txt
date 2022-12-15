@@ -1,3 +1,5 @@
+VERSION 1 _____________________________________________________________________________________________________________________________________________________________________________________________
+
 *** Start of Indexing Strings Demo ***
 Type not empty string (q - to quit):
 abcdefgh
@@ -106,3 +108,71 @@ Word #52 is 'MARKHAM,'
 Word #53 is 'AND'
 Word #54 is 'KING'
 Type a few words separated by space (q - to quit):
+
+ 
+VERSION2 ______________________________________________________________________________________________________________________________________________________________________________________________
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+$
+The length of '$' is 1 characters
+Type a string (q - to quit):
+abcdefgh
+The length of 'abcdefgh' is 8 characters
+Type a string (q - to quit):
+The length of '123456789012345678901234567890123456789012345678901234567890123456789123456789' is 78 characters
+
+
+*** Start of Comparing String Demo ***
+Type the 1st string to compare (q - to quit):
+computers
+Type the 2nd string to compare:
+
+'computers' string is greater than ' '
+Type the 1st string to compare (q - to quit):
+programming
+Type the 2nd string to compare:
+coding
+'programming' string is greater than 'coding'
+Type the 1st string to compare (q - to quit):
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+Type the 2nd string to compare:
+alphabets
+'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz' string is less than 'alphabets'
+
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+.23
+Converted number is 0.230000
+Type the double numeric string (q - to quit):
+.44
+Converted number is 0.440000
+Type the double numeric string (q - to quit):
+.96
+Converted number is 0.960000
+Type the double numeric string (q - to quit):
+1001.125686
+Converted number is 1001.125686
+Type the double numeric string (q - to quit):
+12345678901.123457
+Converted number is 12345678901.123457
+
+*** Start of Tokenizing Phrases Demo ***
+Type a few phrases separated by comma (q to quit):
+a
+Phrase #1 is 'a'
+Type a few phrases separated by comma (q to quit):
+This is a demo, you may check it out
+Phrase #1 is 'This is a demo'
+Phrase #2 is ' you may check it out'
+Type a few phrases separated by comma (q to quit):
+Phrase #1 is 'I STUDY AT SENECA COLLEGE'
+Phrase #2 is ' NEWNHAM CAMPUS'
+Phrase #3 is ' MY COURSE IS COMPUTER PROGRAMMING(CPP)'
+Phrase #4 is ' I LOVE MY COLLEGE'
+Phrase #5 is ' MY FIRST SEMESTER IS GOING TO END SOON'
+Phrase #6 is ' I HAD A LOT OF FUN DURING THE FIRST SEMESTER'
+Phrase #7 is ' I LEARNED A LOT OF NEW THINGS AND HAD GREAT EXPERIENCE'
+Phrase #8 is ' SENECA HAS 4 CAMPUSES NEWNHAM'
+Phrase #9 is ' YORK'
+Phrase #10 is ' MARKHAM'
+Phrase #11 is ' AND KING'

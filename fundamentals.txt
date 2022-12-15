@@ -1,0 +1,35 @@
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+abcdefgh
+The length of 'abcdefgh' is 8 characters
+Type a string (q - to quit):
+$
+The length of '$' is 1 characters
+Type a string (q - to quit):
+
+The length of '' is 0 characters
+Type a string (q - to quit):
+123456789012345678901234567890123456789012345678901234567890123456789
+The length of '123456789012345678901234567890123456789012345678901234567890123456789' is 69 characters
+Type a string (q - to quit):
+1234567890123456789012345678901234567890123456789012345678901234567890123456789
+The length of '123456789012345678901234567890123456789012345678901234567890123456789012345678' is 78 characters
+Type a string (q - to quit):
+The length of '' is 0 characters
+Type a string (q - to quit):
+098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321
+The length of '098765432109876543210987654321098765432109876543210987654321098765432109876543' is 78 characters
+Type a string (q - to quit):
+The length of '10987654321' is 11 characters
+Type a string (q - to quit):
+q
+*** End of Measuring Strings Demo ***
+
+
+C:\Users\shikh\Desktop\anirudh\CPR101_NAA\Project work\fundamentals\x64\Debug\fundamentals.exe (process 22008) exited with code 0.
+Press any key to close this window . . .

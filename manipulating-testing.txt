@@ -1,3 +1,5 @@
+-------------------------------------------------------VERSION-1--------------------------------------------------------
+
 *** Start of Concatenating String Demo ***
 Type the 1st string (q - to quit):
 Om
@@ -20,4 +22,31 @@ q
 
 
 D:\1st Semester\CPR 101\Final Project\CPR Final Project\x64\Debug\CPR Final Project.exe (process 12380) exited with code 0.
+Press any key to close this window . . .
+
+
+----------------------------------------------------------VERSION-2-------------------------------------------------------
+
+*** Start of Concatenating String Demo ***
+Type the 1st string to compare (q - to quit):
+
+Type the 2nd string to compare:
+programmer
+'' string is less than 'programmer'
+Type the 1st string to compare (q - to quit):
+computers
+Type the 2nd string to compare:
+
+'computers' string is greater than ' '
+Type the 1st string to compare (q - to quit):
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+Type the 2nd string to compare:
+alphabets
+'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz' string is less than 'alphabets'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing strings Demo ***
+
+
+D:\1st Semester\CPR 101\Final Project\CPR Final Project\x64\Debug\CPR Final Project.exe (process 6876) exited with code 0.
 Press any key to close this window . . .
